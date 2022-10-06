@@ -1,0 +1,31 @@
+[user]
+	email = CME1809103@xmu.edu.my
+	name = Dannis
+  
+[init]
+	defaultBranch = main
+
+[alias]
+	co = checkout
+	cmm = commit -m
+	#############
+	lg = log --oneline --graph --decorate
+	#############
+	r = remote
+	ra = remote add
+	rr = remote rm
+	rv = remote -v
+	rn = remote rename
+	rp = remote prune
+	rs = remote show
+	rao = remote add origin
+	rau = remote add upstream
+	rro = remote remove origin
+	rru = remote remove upstream
+	rso = remote show origin
+	rsu = remote show upstream
+	rpo = remote prune origin
+	rpu = remote prune upstream
+	#############
+	t = tag
+	td = tag -d
